@@ -3,7 +3,7 @@ import { Mail, Calendar } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative w-full bg-slate-950 py-20 text-slate-200">
+    <section id="contact" aria-label="Contact" className="relative w-full bg-slate-950 py-24 text-slate-200">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <h2 className="text-3xl font-semibold sm:text-4xl">Let’s launch something great</h2>
         <p className="mx-auto mt-3 max-w-xl text-slate-400">

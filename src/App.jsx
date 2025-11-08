@@ -2,6 +2,7 @@ import React from 'react';
 import Hero3D from './components/Hero3D';
 import Services from './components/Services';
 import Work from './components/Work';
+import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 
 function Navbar() {
@@ -26,6 +27,7 @@ export default function App() {
       <Hero3D />
       <Services />
       <Work />
+      <Testimonials />
       <Contact />
       <footer className="border-t border-white/10 bg-slate-950 py-10 text-center text-xs text-slate-500">
         © {new Date().getFullYear()} Startup Helper — websites, marketing, consulting, planning.
