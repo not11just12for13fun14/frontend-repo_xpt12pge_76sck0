@@ -3,10 +3,6 @@ import Navbar from './components/Navbar';
 import Hero3D from './components/Hero3D';
 import Services from './components/Services';
 import Work from './components/Work';
-import Testimonials from './components/Testimonials';
-import CTA from './components/CTA';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -22,11 +18,7 @@ export default function App() {
         <Hero3D />
         <Services />
         <Work />
-        <Testimonials />
-        <CTA />
-        <Contact />
       </main>
-      <Footer />
     </div>
   );
 }
